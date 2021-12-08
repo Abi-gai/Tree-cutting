@@ -4,7 +4,7 @@
 }
 
 body{
-    width: 100%;
+    /* width: 100%; */
     background-image: url("../../commons/img/pexels-khari-hayden-923167.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,13 +20,6 @@ body{
 .navigation a{
     padding: 10px;
     border: none;
-}
-
-.navigation a:hover{
-    background-color: white;
-    border: none;
-    border-radius: 5px;
-    transform: scale(1.1);
 }
 
 .navigation a:hover :nth-child(2){
@@ -46,6 +39,13 @@ body{
     font-weight: 500;
 }
 
+.home-link a:active, .home-link a:focus{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
 .social-links{
     display: flex;
     flex-direction: row;
@@ -53,7 +53,7 @@ body{
     align-items: center;
     margin-left: 30px;
 
-    color: rgb(169, 16, 16);
+    color: rgb(174, 79, 45);
 }
 
 .social-links a{
@@ -91,7 +91,7 @@ main{
     align-items: center;
     width: 100%;
 
-    padding: 250px 25px;
+    padding: 100px 0px;
 
 }
 
@@ -106,6 +106,7 @@ main{
     border-radius: 15px;
 
     background-color: rgba(255, 255, 255, 0.563);
+    margin-top: 20px;
 }
 
 .item{
