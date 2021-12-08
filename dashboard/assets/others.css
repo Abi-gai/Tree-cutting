@@ -1,0 +1,209 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transition: 0.5s;
+}
+
+body {
+  /* width: 100%; */
+  background-image: url("../../commons/img/pexels-karolina-grabowska-4218590.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dashboard-summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  /* border: 1px solid black; */
+  padding: 10px 15px;
+  border-radius: 15px;
+
+  /* background-color: rgba(255, 255, 255, 0.563); */
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  margin: 0 10px 0 25px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #fff;
+}
+
+.item h4 {
+  color: #fff;
+}
+.item span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+
+  width: 140px;
+  height: 140px;
+  padding: 15px;
+  font-size: 18px;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+
+  transition: 0.5s;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.item span img {
+  width: 48px;
+  height: auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0px 0px;
+  border-top: 1px solid rgba(255, 255, 255, 0.446);
+}
+
+.action-navigation {
+  width: 100%;
+  /* border-top: 1px solid rgba(255, 255, 255, 0.446); */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.446);
+  float: left;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  padding: 5px 0px;
+}
+
+.action-button-links button {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.action-button-links button:nth-child(1){
+  float: right;
+}
+
+.action-button-links button:hover {
+  background-color: white;
+  outline: none;
+  border: none;
+  /* border: 0.5px solid rgba(226, 77, 77, 0.618); */
+  border-radius: 5px;
+  transform: scale(1.05);
+}
+
+.action-button-links button img {
+  width: 24px;
+  height: auto;
+}
+
+.dashboard-activity {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  /* 
+  border-radius: 5px;
+  background-color: transparent;*/
+  width: 100%;
+  height: 40%;
+  overflow-y: auto;
+}
+
+/* TABLE */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  letter-spacing: 0.02em;
+  background-color: rgba(255, 255, 255, 0.364);
+  margin-right: 5px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  margin-top:0 ;
+
+}
+
+
+/* tr:nth-child(odd) {
+  border: 1px solid #dddddd;
+  background-color: rgb(190, 159, 35);
+  color: #fff;
+} */
+
+thead {
+  border-collapse: collapse;
+  border-bottom: 0.5px solid #eceaeaf8;
+  background-color: rgba(0, 0, 0, 0.864);
+  color: #fff;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+tbody {
+  background-color: rgba(255, 255, 255, 0.364);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  border: 1px solid #dddddd;
+  background-color: rgb(190, 159, 35);
+  color: #fff;
+}
+
+
+tr:last-child{
+  border-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 2px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #878787;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 40px thin;
+  background: crimson;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  filter: brightness(2.5);
+}
