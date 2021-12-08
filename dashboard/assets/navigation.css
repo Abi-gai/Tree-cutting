@@ -1,0 +1,118 @@
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #ef463a8a; */
+    background-color: #ef463a8a;
+
+    /* rgb(174, 79, 45); */
+    padding: 10px 0px;
+}
+
+.navigation a{
+    /* padding: 10px; */
+    text-decoration: none;
+    border-color: 1px solid #fff;
+    color: #fff;
+}
+
+.navigation a:hover{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    transform: scale(1.1);
+    color: #000;
+}
+
+.navigation a:hover :nth-child(2){
+    color: black;
+}
+
+.home-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.home-link img{
+    filter: invert(100%);
+}
+
+.home-link img:hover{
+    filter: invert(0%);
+}
+.dashboard-navs{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px;
+
+    color: rgb(169, 16, 16);
+}
+
+.dashboard-navs a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 5px 0 5px;
+    letter-spacing: 0.02em;
+    border: 0.5px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+
+}
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px;
+
+    color: rgb(169, 16, 16);
+}
+
+.social-links a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 10px 0 10px;
+    letter-spacing: 0.1em;
+    color: black;
+
+}
+
+.social-links a:nth-child(1):hover{
+    color: rgba(0, 0, 255, 0.891);
+}
+.social-links a:nth-child(3):hover{
+    color: rgba(0, 0, 255, 0.891);
+}
+
+.social-links a:nth-child(2):hover{
+    color: crimson;
+}
+
+.social-links a img{
+    margin: 0 5px;
+    filter: invert(90%);
+}
+
+.social-links a img:hover{
+    filter: invert(0%);
+    filter: blur(1px);
+}
