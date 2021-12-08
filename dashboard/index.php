@@ -19,7 +19,7 @@
 <body>
     <nav>
         <div class="navigation">
-            <a href="../../tree-cutting" class="home-link">Home</a>
+            <a href="#" class="home-link">Home</a>
             <div class="social-links">
                 <a href="https:///www.facebook.com/tree-cutting-service">facebook <img src="../commons/img/social/iconmonstr-facebook-3.svg" alt=""/></a>
                 <a href="https://www.instagram.com/tree-cutting-service">instagram <img src="../commons/img/social/iconmonstr-instagram-11.svg" alt=""/></a>
