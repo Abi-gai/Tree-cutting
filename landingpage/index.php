@@ -41,45 +41,52 @@
         </h3>       
     </header>
     <main>
-        <div class="summary-section">
+        <div class="page-section">
             <h1>Summary section</h1>
-            <div class="summary-content">
-                Every tree tends to grow by either being diseased or healthy enough to withstand the environment. We provide a professional tree risk assessment and analyse potential issues rooted from the assessment. Perhaps the tree is damaged or diseased beyond repair then as a tree removal or tree cutting service is needed, thats where we come in.
-                Our tree-cutting service provides Certified Arborists that can work with you to safely and efficiently remove your tree. There are tree removals that are complex and very difficulut. And sometimes, mistakes are costly so one has to make sure that the arborist they choose is qualified.
-            </div>
-            <div class="media-descriptor">
-                Media descriptor
-                <img src="" alt="summary-media-descriptor"/>
+            <div class="page-content-section">
+                <div class="media-descriptor">
+                    Media descriptor
+                    <img src="" alt="summary-media-descriptor"/>
+                </div>
+                <div class="page-section-det">
+                    Every tree tends to grow by either being diseased or healthy enough to withstand the environment. We provide a professional tree risk assessment and analyse potential issues rooted from the assessment. Perhaps the tree is damaged or diseased beyond repair then as a tree removal or tree cutting service is needed, thats where we come in.
+                    Our tree-cutting service provides Certified Arborists that can work with you to safely and efficiently remove your tree. There are tree removals that are complex and very difficulut. And sometimes, mistakes are costly so one has to make sure that the arborist they choose is qualified.
+                </div>
             </div>
 
             <div>
                 <h1>Partners</h1>
-                <img class="correct-btn" src="iconmonstr-check-mark-11.svg" alt="tick">
-                <img class="correct-btn" src="iconmonstr-check-mark-11.svg" alt="1tick">
-                <img class="exit-btn" src="iconmonstr-x-mark-1.svg" alt="2tick">
-                <img class="exit-btn" src="iconmonstr-x-mark-1.svg" alt="3tick">
-                <img class="exit-btn" src="iconmonstr-x-mark-1.svg" alt="4tick">
-                <img class="exit-btn" src="iconmonstr-x-mark-1.svg" alt="5tick">
-                <img class="exit-btn" src="iconmonstr-x-mark-1.svg" alt="6tick">
-                <img class="exit-btn" src="iconmonstr-x-mark-1.svg" alt="7tick">
+                <div class="partner-gallery">
+                    <img class="correct-btn" src="iconmonstr-check-mark-11.svg" alt="tick">
+                    <img class="correct-btn" src="iconmonstr-check-mark-11.svg" alt="1tick">
+                    <img class="exit-btn" src="iconmonstr-x-mark-1.svg" alt="2tick">
+                    <img class="exit-btn" src="iconmonstr-x-mark-1.svg" alt="3tick">
+                    <img class="exit-btn" src="iconmonstr-x-mark-1.svg" alt="4tick">
+                    <img class="exit-btn" src="iconmonstr-x-mark-1.svg" alt="5tick">
+                    <img class="exit-btn" src="iconmonstr-x-mark-1.svg" alt="6tick">
+                    <img class="exit-btn" src="iconmonstr-x-mark-1.svg" alt="7tick">
+                </div>
             </div>
         </div>
 
         <hr></hr>
 
-        <div class="services-section">
+        <div class="page-section">
             <h1>Services</h1>
-            <div class="service-content">
-                Every tree tends to grow by either being diseased or healthy enough to withstand the environment. We provide a professional tree risk assessment and analyse potential issues rooted from the assessment. Perhaps the tree is damaged or diseased beyond repair then as a tree removal or tree cutting service is needed, thats where we come in.
-                Our tree-cutting service provides Certified Arborists that can work with you to safely and efficiently remove your tree. There are tree removals that are complex and very difficulut. And sometimes, mistakes are costly so one has to make sure that the arborist they choose is qualified.
-            </div>
-            <div class="media-descriptor">
-                <img src="" alt=""/>
+            <div class="page-content-section">
+                <div class="page-section-det">
+                    Every tree tends to grow by either being diseased or healthy enough to withstand the environment. We provide a professional tree risk assessment and analyse potential issues rooted from the assessment. Perhaps the tree is damaged or diseased beyond repair then as a tree removal or tree cutting service is needed, thats where we come in.
+                    Our tree-cutting service provides Certified Arborists that can work with you to safely and efficiently remove your tree. There are tree removals that are complex and very difficulut. And sometimes, mistakes are costly so one has to make sure that the arborist they choose is qualified.
+                </div>
+                <div class="media-descriptor">
+                    Media descriptor
+                    <img src="" alt="summary-media-descriptor"/>
+                </div>
             </div>
         </div>
         <hr></hr>
 
-        <div class="pricing-section">
+        <div class="page-section">
             <h1>Pricing</h1>
             <div>
                 Every tree tends to grow by either being diseased or healthy enough to withstand the environment. We provide a professional tree risk assessment and analyse potential issues rooted from the assessment. Perhaps the tree is damaged or diseased beyond repair then as a tree removal or tree cutting service is needed, thats where we come in.
@@ -96,27 +103,34 @@
         </div>
         <hr></hr>
 
-        <div class="about-section">
+        <div class="page-section">
             <h1>About us</h1>
-            <div class="content-image3">
-                <img src="" alt="" />
-            </div>
-            <div>
-                Every tree tends to grow by either being diseased or healthy enough to withstand the environment. We provide a professional tree risk assessment and analyse potential issues rooted from the assessment. Perhaps the tree is damaged or diseased beyond repair then as a tree removal or tree cutting service is needed, thats where we come in.
-                Our tree-cutting service provides Certified Arborists that can work with you to safely and efficiently remove your tree. There are tree removals that are complex and very difficulut. And sometimes, mistakes are costly so one has to make sure that the arborist they choose is qualified.
+            <div class="page-content-section">
+                <div class="media-descriptor">
+                    Media descriptor
+                    <img src="" alt="summary-media-descriptor"/>
+                </div>
+                <div class="page-section-det">
+                    Every tree tends to grow by either being diseased or healthy enough to withstand the environment. We provide a professional tree risk assessment and analyse potential issues rooted from the assessment. Perhaps the tree is damaged or diseased beyond repair then as a tree removal or tree cutting service is needed, thats where we come in.
+                    Our tree-cutting service provides Certified Arborists that can work with you to safely and efficiently remove your tree. There are tree removals that are complex and very difficulut. And sometimes, mistakes are costly so one has to make sure that the arborist they choose is qualified.
+                </div>
             </div>
         </div>
         <hr></hr>
 
-        <div class="contact-section">
+        <div class="page-section">
             <h1>Contact</h1>
-            <div class="content-image3">
-                <img src="" alt="" />
+            <div class="page-content-section">
+                <div class="page-section-det">
+                    Every tree tends to grow by either being diseased or healthy enough to withstand the environment. We provide a professional tree risk assessment and analyse potential issues rooted from the assessment. Perhaps the tree is damaged or diseased beyond repair then as a tree removal or tree cutting service is needed, thats where we come in.
+                    Our tree-cutting service provides Certified Arborists that can work with you to safely and efficiently remove your tree. There are tree removals that are complex and very difficulut. And sometimes, mistakes are costly so one has to make sure that the arborist they choose is qualified.
+                </div>
+                <div class="media-descriptor">
+                    Map here...
+                <img src="" alt="summary-media-descriptor"/>
             </div>
-            <div>
-                Every tree tends to grow by either being diseased or healthy enough to withstand the environment. We provide a professional tree risk assessment and analyse potential issues rooted from the assessment. Perhaps the tree is damaged or diseased beyond repair then as a tree removal or tree cutting service is needed, thats where we come in.
-                Our tree-cutting service provides Certified Arborists that can work with you to safely and efficiently remove your tree. There are tree removals that are complex and very difficulut. And sometimes, mistakes are costly so one has to make sure that the arborist they choose is qualified.
             </div>
+            
         </div>
         <hr></hr>
         
