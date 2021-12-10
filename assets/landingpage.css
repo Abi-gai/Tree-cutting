@@ -16,7 +16,7 @@ nav{
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 100%
+  width: 100%;
 }
 
 .logo{
@@ -24,7 +24,7 @@ nav{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 250px;
+  width: 300px;
 }
 
 .logo img{
@@ -43,7 +43,7 @@ font-style: italic;
 
   display: flex;
   flex-direction: row;
-  margin-left: 42%;
+  margin-left: 30%;
 }
 
 .nav-items li{
@@ -86,7 +86,7 @@ main{
 
 .page-section-det{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 40%;
@@ -98,11 +98,17 @@ main{
 
 .media-descriptor{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
   width: 40%;
   /* float: right; */
+}
+
+.media-descriptor img{
+  width: 360px;
+  height: auto;
+  border-radius: 5px;
 }
 
 .partner-gallery{
@@ -113,7 +119,9 @@ main{
   align-items: flex-start;
 }
 
-.partner-gallery img{
+.partner-logo{
+  width: 120px;
+  height: auto;
   margin: 5px 5px;
 }
 
@@ -124,6 +132,20 @@ main{
   align-items: flex-start;
 }
 
+.media-descriptor .service-img{
+  width: 186px;
+  margin: 10px 35px;
+  height: auto;
+
+  border-radius: 5px;
+}
+
+#map-img{
+  width: 780px;
+  height: auto;
+
+  margin: 0px 5px;
+}
 .comp-services{
   display: flex;
   flex: 1;
@@ -143,8 +165,30 @@ main{
 
 footer{
   display: flex;
+  /* flex: 1; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: black;
+  height: 45px;
+  width: 98.5%;
+  padding: 10px;
 }
 
+.social-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links a{
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+
+}
 /* .logo1 {
     font-size: 50px;
     color: blue;
