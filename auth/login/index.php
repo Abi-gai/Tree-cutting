@@ -6,7 +6,8 @@
 
     //Form error messages
     $form_validation_notif = "✔";
-    $errors = array('email' => '', 'password' => '', 'formerrors' =>'');
+    $dberrors = 'Connection to your server may have been servered. Please contact the site admin';
+    $errors = array('email' => '', 'password' => '', 'formerrors' =>'', 'dberrors' =>'');
     $errors_form = "Please correct the form errors";
     $error_email = "A valid email is required. ";
     $error_pass = "Please enter a valid password - Password must contain letters only";
@@ -41,6 +42,12 @@
             $errors['formerrors'] = $form_validation_notif;
             header('Location: ../../dashboard/index.php');
         }
+
+        //Database connections
+        $conn = mysqli_connect('localhost', 'testdmin', '@this.admin7', 'tree_cutting_service');
+        if(!$conn){
+            echo $dberrors . mysqli_connect_error();
+        }
     }
 ?>
 
@@ -58,6 +65,7 @@
         <div class="login-form-container">
             <h2 class="welcome-message">Admin login here...</h2>
             <img src="../../commons/img/icons/iconmonstr-key-2.svg" alt="login-icon" class="login-ico" id="login-icon"/>
+            <span style="color: green; font-size: 12px; margin: 5px 0px; font-style: italic"><?php echo $errors['dberrors']?></span>
             <span style="color: green; font-size: 12px; margin: 5px 0px; font-style: italic"><?php echo $errors['formerrors']?></span>
             <form action="index.php" method="POST">
                 <label for="email">Email</label>
