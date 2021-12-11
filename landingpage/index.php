@@ -136,19 +136,19 @@
                 <img src="../commons/img/social/iconmonstr-facebook-3.svg" alt="facebook" width="42" height="42" style="vertical-align:bottom"> 
             </a>
             <a href="#">
-                <img src="../commons/img-icons/iconmonstr-gmail-1.svg" alt="gmail" width="42" height="42" style="vertical-align:bottom">
+                <img src="../commons/img/landing-icons/iconmonstr-gmail-1.svg" alt="gmail" width="42" height="42" style="vertical-align:bottom">
             </a>
             <a href="#">
-                <img src="../commons/img/social/iconmonstr-linkedin-3.svg" alt="linkedIn" width="42" height="42" style="vertical-align:bottom">
+                <img src="../commons/img/landing-icons/iconmonstr-linkedin-3.svg" alt="linkedIn" width="42" height="42" style="vertical-align:bottom">
             </a>
             <a href="#">
-                <img src="../commons/img-icons/iconmonstr-twitter-3.svg" alt="twitter" width="42" height="42" style="vertical-align:bottom">
+                <img src="../commons/img/landing-icons/iconmonstr-twitter-3.svg" alt="twitter" width="42" height="42" style="vertical-align:bottom">
             </a>
             <a href="#">
                 <img src="../commons/img/social/iconmonstr-instagram-11.svg" alt="instagram" width="42" height="42" style="vertical-align:bottom">
             </a>
             <a href="#">
-                <img src="../commons/img/social/iconmonstr-youtube-1.svg" alt="youtube" width="42" height="42" style="vertical-align:bottom">
+                <img src="../commons/img/landing-icons/iconmonstr-youtube-1.svg" alt="youtube" width="42" height="42" style="vertical-align:bottom">
             </a>
         </div>
 
