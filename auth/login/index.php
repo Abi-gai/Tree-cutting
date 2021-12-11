@@ -1,20 +1,10 @@
 <?php
-    $pageTitle = 'Admin Dashboard - Others';
-    $currentDate = '19-11-2021';
-    define('MESSAGE', 'Welcome');
+    $pageTitle = 'Admin Login';
 
-    //Table headers
-    $customer_id ="ID";
-    $customer_firstname = "FIRST NAME";
-    $customer_lastname = "LAST NAME";
-    $customer_othernames = "OTHER NAMES";
-    $customer_address = "ADDRESS";
-    $customer_country = "COUNTRY";
-    $customer_state = "STATE / REGION/ PROVINCE";
-
-    $total_some_val = 104;
-    $some_news_description ="New description here...";
-
+    // if(isset($_POST['submit'])){
+    //     echo $_POST['email'];
+    //     echo $_POST['password'];
+    // }
 ?>
 
 <!DOCTYPE html>
@@ -31,11 +21,11 @@
         <div class="login-form-container">
             <h2 class="welcome-message">Admin login here...</h2>
             <img src="../../commons/img/icons/iconmonstr-key-2.svg" alt="login-icon" class="login-ico" id="login-icon"/>
-            <form action="">
+            <form action="index.php" method="POST">
                 <label for="email">Email</label>
-                <input name="email" type="email" class="user-name" id="username" placeholder="Kindly enter your user-name or email here" title="Email"/>
+                <input name="email" type="email" required="true" class="user-name" id="username" placeholder="Kindly enter your user-name or email here" title="Email"/>
                 <label for="password">Password</label>
-                <input name="password" type="password" class="user-pass" id="password" placeholder="Kindly enter your password here" title="password"/>
+                <input name="password" type="password" required="true" class="user-pass" id="password" placeholder="Kindly enter your password here" title="password"/>
                 <button type="submit" name="submit" value="submit" class="submit-btn">Login</button>
             </form>
         </div>
