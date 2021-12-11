@@ -119,3 +119,9 @@ form input:focus, form input:active, form input::after{
     filter: blur(0.5px);
     margin: 20px 0px;
 }
+
+.errors{
+    color: #d74f00;
+    font-weight: 500;
+    font-style: italic;
+}
