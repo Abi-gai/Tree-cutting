@@ -6,6 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome - Tree Cutting Service</title>
     <link rel="stylesheet" href="./assets/landingpage.css"/>
+    <style>
+        .sum-section{
+            background-image: url("./images/pexels-rodnae-productions-8903345.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-blend-mode: normal;
+
+        }
+        .contact-section{
+            background-image: url("./images/pexels-karolina-grabowska-4206118.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-blend-mode: normal;
+        }
+    </style>
 </head>
 <body>
     <nav>
@@ -32,7 +47,7 @@
             <li>
                 <a href= "#contact-section">Contact us</a>
             </li>
-            <a href= "./auth/login"><img src="./commons/img/icons/iconmonstr-key-2.svg" alt="admin-ac"/></a>
+            <a class="admin-login" href= "./auth/login"><img src="./commons/img/icons/iconmonstr-key-2.svg" alt="admin-ac"/></a>
 
         </ul>
     </nav>
@@ -49,7 +64,7 @@
                 <div class="media-descriptor">
                     <img src="./commons/img/landing-img/intro-summary-img.jpg" alt="summary-media-descriptor" title="Business vector created by upklyak - www.freepik.com"/>
                 </div>
-                <div class="page-section-det">
+                <div class="page-section-det" style="background-color: rgba(255, 255, 255, 0.344); padding: 10px;">
                     Every tree tends to grow by either being diseased or healthy enough to withstand the environment. We provide a professional tree risk assessment and analyse potential issues rooted from the assessment. Perhaps the tree is damaged or diseased beyond repair then as a tree removal or tree cutting service is needed, thats where we come in.
                     Our tree-cutting service provides Certified Arborists that can work with you to safely and efficiently remove your tree. There are tree removals that are complex and very difficulut. And sometimes, mistakes are costly so one has to make sure that the arborist they choose is qualified.
                 </div>
@@ -61,12 +76,6 @@
                 <div class="partner-gallery" id="partners-section">
                     <img class="partner-logo" src="./commons/img/landing-img/ashesi-logo-mobile.png" alt="tick">
                     <img class="partner-logo" src="./commons/img/landing-img/google-logo.png" alt="1tick">
-                    <img class="partner-logo" src="./commons/img/" alt="2tick">
-                    <img class="partner-logo" src="./commons/img/" alt="3tick">
-                    <img class="partner-logo" src="./commons/img/" alt="4tick">
-                    <img class="partner-logo" src="./commons/img/" alt="5tick">
-                    <img class="partner-logo" src="./commons/img/" alt="6tick">
-                    <img class="partner-logo" src="./commons/img/" alt="7tick">
                 </div>
             </div>
         </div>
@@ -126,7 +135,7 @@
         <div class="page-section contact-section" id="contact-section">
             <h1>Contact</h1>
             <div class="page-content-section ">
-                <div class="page-section-det">
+                <div class="page-section-det" style="background-color: rgba(255, 255, 255, 0.604); padding: 10px;">
                     Every tree tends to grow by either being diseased or healthy enough to withstand the environment. We provide a professional tree risk assessment and analyse potential issues rooted from the assessment. Perhaps the tree is damaged or diseased beyond repair then as a tree removal or tree cutting service is needed, thats where we come in.
                     Our tree-cutting service provides Certified Arborists that can work with you to safely and efficiently remove your tree. There are tree removals that are complex and very difficulut. And sometimes, mistakes are costly so one has to make sure that the arborist they choose is qualified.
                 </div>
@@ -165,5 +174,6 @@
         <!-- <a href='https://www.freepik.com/vectors/people'>People vector created by pch.vector - www.freepik.com</a> -->
         <!-- <a href='https://www.freepik.com/vectors/character'>Character vector created by vectorjuice - www.freepik.com</a> -->
         <!-- <a href='https://www.freepik.com/vectors/business'>Business vector created by upklyak - www.freepik.com</a> -->
+        <!--Photo by RODNAE Productions from Pexels; Photo by Karolina Grabowska from Pexels-->
     </footer>
 </html>

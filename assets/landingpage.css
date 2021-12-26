@@ -5,6 +5,7 @@
 }
 
 body {
+  transition: 0.5s;
   background-color: #fff;
 }
 
@@ -78,7 +79,13 @@ nav b span {
 .nav-items li a {
   text-decoration: none;
   color: #fff;
+  margin-left: 10px;
 }
+
+.admin-login{
+margin-left: 10px;}
+
+
 
 header h3{
   text-transform: uppercase;
@@ -110,10 +117,14 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 40%;
+  color: #000;
+  font-weight: 600;
+  font-size: 18px;
+  width: 37%;
 }
 
 .summary-content {
+  /* background-color: rgba(255, 255, 255, 0.611); */
 }
 
 .media-descriptor {
@@ -139,10 +150,14 @@ main {
   align-items: flex-start;
 }
 
+.partner-gallery img{
+  margin: 5px 40px;
+
+}
+
 .partner-logo {
   width: 120px;
   height: auto;
-  margin: 5px 5px;
 }
 
 .media-descriptor .service-img {
